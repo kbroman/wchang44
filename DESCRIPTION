@@ -1,0 +1,10 @@
+Package: brownmotion
+Title: 2D Brownian Motion with ggplot
+Version: 1.0.1
+Description: Simulate Brownian motion and graph with ggplot2
+Author: Wesley Chang <wchang44@wisc.edu>
+License: GPL-3
+Imports: ggplot2
+Suggests: roxygen2, testthat, knitr, rmarkdown
+VignetteBuilder: knitr
+Maintainer: Wesley Chang <wchang44@wisc.edu>
