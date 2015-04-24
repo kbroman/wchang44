@@ -1,0 +1,30 @@
+---
+title: "brownmotion"
+author: "Wesley"
+date: "Tuesday, April 21, 2015"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Intro to Brownian Motion}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8](inputenc)
+---
+
+Specify a number of trials (integer greater than 0) and the simBM(n) command will both generate a dataframe as well as plot 2D browninan motion.
+
+
+```{r}
+library(brownmotion)
+simBM(100)
+```
+
+You can also store the object (as a dataframe).
+
+```{r}
+x <- simBM(100)
+```
+
+The default standard deviation is 1, but that can be changed.
+```{r}
+simBM(100,sigma=2)
+```
+

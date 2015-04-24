@@ -18,4 +18,8 @@ of n simulations of Brownian Motion
 \description{
 Input number of trials and sigma and simulate 2D Brownian motion
 }
+\examples{
+simBM(100)
+x <- simBM(100)
+}
 

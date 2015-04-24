@@ -22,6 +22,10 @@ plotBM <- function(x)
 #' @return Returns a dataframe with 2 columns "x" and "y" containing the results
 #' of n simulations of Brownian Motion
 #' 
+#' @examples
+#' simBM(100)
+#' x <- simBM(100)
+#' 
 #' @export
 #'
 #' @import ggplot2
